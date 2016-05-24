@@ -1,0 +1,132 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/userback">
+
+    <Button
+        android:id="@+id/light1button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="198dp"
+        android:layout_y="50dp"
+        android:background="@drawable/lightbuttonoff"
+        android:text="   " />
+
+    <Button
+        android:id="@+id/monitor"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="40dp"
+        android:layout_y="50dp"
+        android:background="@drawable/monitoroff"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="81dp"
+        android:layout_height="34dp"
+        android:layout_x="5dp"
+        android:layout_y="15dp"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="560dp"
+        android:background="@drawable/home"
+        android:text="   " />
+
+    <Button
+        android:id="@+id/bath"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="560dp"
+        android:background="@drawable/bath"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="561dp"
+        android:background="@drawable/sleepclick"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/tvon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="198dp"
+        android:layout_y="180dp"
+        android:background="@drawable/tvoff"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="40dp"
+        android:layout_y="180dp"
+        android:background="@drawable/certainoff"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/airdown"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="40dp"
+        android:layout_y="310dp"
+        android:background="@drawable/airtempdown"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/airup"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="198dp"
+        android:layout_y="310dp"
+        android:background="@drawable/airtempup"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/aircontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="480dp"
+        android:background="@drawable/aircontroloff"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/suncontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="480dp"
+        android:background="@drawable/suncontroloff"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/sleepcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="480dp"
+        android:background="@drawable/sleepcontroloff"
+        android:text=" " />
+    
+        <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="15dp"
+        android:background="@drawable/check"
+        android:text="  " />
+
+</AbsoluteLayout>

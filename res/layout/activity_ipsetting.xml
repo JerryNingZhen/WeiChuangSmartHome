@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/backip" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+       <EditText
+           android:id="@+id/ip"
+           android:layout_width="320dp"
+           android:layout_height="wrap_content"
+           android:layout_x="20dp"
+           android:layout_y="41dp"
+           android:ems="10"
+           android:hint="请 输 入 IP" />
+
+       <EditText
+           android:id="@+id/windows"
+           android:layout_width="313dp"
+           android:layout_height="wrap_content"
+           android:layout_x="20dp"
+           android:layout_y="111dp"
+           android:ems="10"
+           android:hint="请 输 入 端 口 号" >
+
+           <requestFocus />
+       </EditText>
+
+      
+       <Button
+           android:id="@+id/sure"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="100dp"
+           android:layout_y="184dp"
+           android:text="确  认" />
+
+       <Button
+           android:id="@+id/back"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="213dp"
+           android:layout_y="184dp"
+           android:text="返  回" />
+       
+    </AbsoluteLayout>
+
+</LinearLayout>

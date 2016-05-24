@@ -1,0 +1,195 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/userback" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="81dp"
+        android:layout_height="34dp"
+        android:layout_x="5dp"
+        android:layout_y="15dp"
+        android:text="  " />
+
+    <TextView
+        android:id="@+id/ShowTest"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="84dp"
+        android:text="当前状态：" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="86dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="239dp"
+        android:text="卧室灯光           " />
+
+    <Button
+        android:id="@+id/BathOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="283dp"
+        android:text="   OFF  " />
+
+    <Button
+        android:id="@+id/BathOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="283dp"
+        android:text="   ON   " />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="289dp"
+        android:text="浴室灯光           " />
+
+    <Button
+        android:id="@+id/MotorOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="333dp"
+        android:text="   OFF  " />
+
+    <Button
+        android:id="@+id/MotorOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="333dp"
+        android:text="   ON   " />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="339dp"
+        android:text="       电机           " />
+
+
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="389dp"
+        android:text="       舵机           " />
+
+    <Button
+        android:id="@+id/BeeOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="433dp"
+        android:text="   OFF  " />
+
+    <Button
+        android:id="@+id/BeeOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="433dp"
+        android:text="   ON   " />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="189dp"
+        android:text="客厅灯光           " />
+
+    <Button
+        android:id="@+id/UserOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="183dp"
+        android:text="   ON   " />
+
+    <Button
+        android:id="@+id/UserOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="183dp"
+        android:text="   OFF  " />
+
+    <Button
+        android:id="@+id/SleepOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="233dp"
+        android:text="   ON   " />
+
+    <Button
+        android:id="@+id/SleepOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="233dp"
+        android:text="   OFF  " />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_x="16dp"
+        android:layout_y="439dp"
+        android:text="       蜂鸣           " />
+
+    <Button
+        android:id="@+id/StOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="383dp"
+        android:text="   ON   " />
+
+    <Button
+        android:id="@+id/StOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="383dp"
+        android:text="   OFF  " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="140dp"
+        android:text="        温度" />
+
+    <Button
+        android:id="@+id/Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="133dp"
+
+        android:text="  读取 " />
+
+
+
+</AbsoluteLayout>

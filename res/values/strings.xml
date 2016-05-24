@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestSocket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_jj">JJActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_check">CheckActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ipsetting">Ipsetting</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_bath">BathActivity</string>
+    <string name="title_activity_sleep">SleepActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>
